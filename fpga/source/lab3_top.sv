@@ -30,10 +30,10 @@ module lab3_top(input  logic 	   reset,
 	
 	// debounce the inputs from the synchronizer (can add enable input later if needed)
 	logic [3:0] scandb, enablepress; //debounced and synced scan
-	lab3_debounce db0(clk, reset, 1'b1, startdb, ~colsync[0], enablepress[0], scandb[0]);
-	lab3_debounce db1(clk, reset, 1'b1, startdb, ~colsync[1], enablepress[1], scandb[1]);
-	lab3_debounce db2(clk, reset, 1'b1, startdb, ~colsync[2], enablepress[2], scandb[2]);
-	lab3_debounce db3(clk, reset, 1'b1, startdb, ~colsync[3], enablepress[3], scandb[3]);
+	lab3_debounce db0(clk, reset, startdb, ~colsync[0], enablepress[0], scandb[0]);
+	lab3_debounce db1(clk, reset, startdb, ~colsync[1], enablepress[1], scandb[1]);
+	lab3_debounce db2(clk, reset, startdb, ~colsync[2], enablepress[2], scandb[2]);
+	lab3_debounce db3(clk, reset, startdb, ~colsync[3], enablepress[3], scandb[3]);
 	
 	// determine which keys are being pressed
 	logic [15:0] keypress;

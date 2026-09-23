@@ -10,7 +10,6 @@ module lab3_debounce #(parameter MAX=12000,
 					   parameter HALFMAX=6000)
 					 (input  logic clk, 
 					  input  logic reset,
-					  input  logic enable,
 					  input  logic startdb,
 					  input  logic bit_in,
 					  output logic enablepress,
@@ -29,7 +28,7 @@ module lab3_debounce #(parameter MAX=12000,
 			counton<=0;
 			enablepress<=0;
 		end
-		else if(enable&(~(counter==MAX))) begin
+		else if(~(counter==MAX)) begin
 			counter <= counter+1;
 			if(bit_in) counton<=counton+1;
 			enablepress<=0;
