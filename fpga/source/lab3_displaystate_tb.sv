@@ -23,7 +23,7 @@ module lab3_displaystate_tb();
 		reset = 1;
 		#3
 		reset = 0;
-		#2
+		#4
 		assert (numb1 == 4'b0000)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -32,12 +32,12 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The numb2 behaves incorrectly at time: %0t.", $time);	
-		#2
+		#4
 		reset = 1;
 		
 		
 		//test all single input cases
-		#2
+		#4
 		assert (numb1 == 4'b0000)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -46,10 +46,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The numb2 behaves incorrectly at time: %0t.", $time);	
-		#2
+		#4
 		
 		keypress = 16'h0002;
-		#4
+		#8
 		assert (numb1 == 4'b0001)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -58,10 +58,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The numb2 behaves incorrectly at time: %0t.", $time);	
-		#2
+		#4
 		
 		keypress = 16'h0004;
-		#2
+		#4
 		assert (numb1 == 4'b0010)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -70,10 +70,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! The numb2 behaves incorrectly at time: %0t.", $time);	
-		#2
+		#4
 		
 		keypress = 16'h0008;
-		#2
+		#4
 		assert (numb1 == 4'b0011)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -82,10 +82,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0010; 
-		#2
+		#4
 		assert (numb1 == 4'b0100)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -94,10 +94,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0020;
-		#2
+		#4
 		assert (numb1 == 4'b0101)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -106,10 +106,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0040;
-		#2
+		#4
 		assert (numb1 == 4'b0110)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -118,10 +118,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0080;
-		#2
+		#4
 		assert (numb1 == 4'b0111)       // check outputs
            $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -130,10 +130,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0100;
-		#2
+		#4
 		assert (numb1 == 4'b1000)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -142,10 +142,10 @@ module lab3_displaystate_tb();
            $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0200;
-		#2
+		#4
 		assert (numb1 == 4'b1001)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -154,10 +154,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0400;
-		#2
+		#4
 		assert (numb1 == 4'b1010)       // check outputs
            $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -166,10 +166,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h0800;
-		#2
+		#4
 		assert (numb1 == 4'b1011)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -178,10 +178,10 @@ module lab3_displaystate_tb();
            $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h1000;
-		#2
+		#4
 		assert (numb1 == 4'b1100)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -190,10 +190,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h2000;
-		#2
+		#4
 		assert (numb1 == 4'b1101)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -202,10 +202,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h4000;
-		#2
+		#4
 		assert (numb1 == 4'b1110)       // check outputs
            $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -214,10 +214,10 @@ module lab3_displaystate_tb();
             $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		keypress = 16'h8000;
-		#2
+		#4
 		assert (numb1 == 4'b1111)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -226,11 +226,11 @@ module lab3_displaystate_tb();
            $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		//check multi input flag
 		keypress = 16'h8040;
-		#2
+		#4
 		assert (numb1 == 4'b1111)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -239,11 +239,11 @@ module lab3_displaystate_tb();
            $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		//check no input flag
 		keypress = 16'h0000;
-		#2
+		#4
 		assert (numb1 == 4'b1111)       // check outputs
             $display("PASSED! numb1 behaves as desired at time: %0t.", $time);
         else 
@@ -252,7 +252,7 @@ module lab3_displaystate_tb();
            $display("PASSED! numb2 behaves as desired at time: %0t.", $time);
         else 
             $error("FAILED! numb2 behaves incorrectly at time: %0t.", $time);
-		#2
+		#4
 		
 		$stop;
 	end
