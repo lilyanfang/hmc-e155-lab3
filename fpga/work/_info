@@ -1,0 +1,505 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+Z2 !s12c _opt1
+R1
+Z3 !s12c _opt
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/Users/lanfang/Desktop/lab3/lab3
+T_opt
+!i145 1
+!i144 0
+!s110 1789966201
+VPLdfJ55:MS>b`]?_8R_QV2
+04 15 4 work lab3_pressed_tb fast 0
+=1-546ceb15b7b5-6ab0b779-12b-3e74
+R1
+!s12f OEM25U2 
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work +acc -L iCE40UP
+Z9 tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+Z10 OL;O;2025.2;82
+R4
+T_opt1
+!i145 1
+!i144 0
+!s110 1789966404
+V9ibCF55^>3_doU=mB6?<@1
+04 20 4 work lab3_displaystate_tb fast 0
+=1-546ceb15b7b5-6ab0b843-331-a60
+R1
+!s12f OEM25U4 
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
+R4
+T_opt2
+!i145 1
+!i144 0
+!s110 1789967073
+VA727Wg@2CkUFkJFnUo;J<2
+04 11 4 work lab3_top_tb fast 0
+=3-546ceb15b7b5-6ab0bae0-3b9-3d40
+R1
+!s12f OEM25U16 
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+vlab3_counter
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_counter.sv
+Z11 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z12 !s110 1789965639
+!i10b 1
+!s100 ;F8QmE4_3_7`K?A06_@i<0
+IfHDGTgZiZR<:l]2oHcWzk0
+S1
+R4
+Z13 w1789955290
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_counter.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_counter.sv
+!i122 153
+L0 8 15
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+Z15 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z16 !s108 1789965639.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_counter.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_counter.sv|
+!i113 0
+Z17 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z18 tCvgOpt 0 defaultOptions 1085333592
+vlab3_db_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_db_tb.sv
+R11
+!s110 1789966038
+!i10b 1
+!s100 Sj]m3[H^zdQ]Q>T?55W4K1
+IgMAhYfFCiORdIHh:8CXB;0
+S1
+R4
+w1789966027
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_db_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_db_tb.sv
+!i122 171
+L0 6 86
+R14
+R15
+r1
+!s85 0
+31
+!s108 1789966038.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_db_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_db_tb.sv|
+!i113 0
+R17
+R18
+vlab3_debounce
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_debounce.sv
+R11
+!s110 1789965807
+!i10b 1
+!s100 G7Mz@W[iC3kVgIkN?V:3G2
+I3YfO`j:U=nnD5?59edlNA0
+S1
+R4
+w1789965775
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_debounce.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_debounce.sv
+!i122 169
+L0 9 35
+R14
+R15
+r1
+!s85 0
+31
+!s108 1789965807.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_debounce.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_debounce.sv|
+!i113 0
+R17
+R18
+vlab3_displaystate
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate.sv
+R11
+R12
+!i10b 1
+!s100 z33JbUFjYmQ3^1]i<]fgA0
+I`YJRjgNM=kXk;dL:YIX2j1
+S1
+R4
+w1789962153
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate.sv
+!i122 156
+L0 7 56
+R14
+R15
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate.sv|
+!i113 0
+R17
+R18
+vlab3_displaystate_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate_tb.sv
+R11
+Z19 !s110 1789965640
+!i10b 1
+!s100 59fQMJJM0km5B@cHA9>Wn3
+I<m=4D7a<SXVQl0n26LzEc0
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate_tb.sv
+!i122 157
+L0 6 254
+R14
+R15
+r1
+!s85 0
+31
+Z20 !s108 1789965640.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_displaystate_tb.sv|
+!i113 0
+R17
+R18
+vlab3_encoder
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder.sv
+R11
+R19
+!i10b 1
+!s100 `Ml6loZgfhoh4zH3HW<?<1
+I6Pm1GWE[]h_7dHbD`DM?61
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder.sv
+!i122 158
+L0 7 22
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder.sv|
+!i113 0
+R17
+R18
+vlab3_encoder_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder_tb.sv
+R11
+R19
+!i10b 1
+!s100 enZY41n:S]dm:L19IKgAH1
+I=AHJag<jzKAH9n^iZRk3K0
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder_tb.sv
+!i122 159
+L0 6 147
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_encoder_tb.sv|
+!i113 0
+R17
+R18
+vlab3_muxcounter
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_muxcounter.sv
+R11
+R19
+!i10b 1
+!s100 8BTMniF]BM3LGD6zYFoF]2
+IVec5JloYQ>6n4SJ=9geP83
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_muxcounter.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_muxcounter.sv
+!i122 160
+L0 9 18
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_muxcounter.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_muxcounter.sv|
+!i113 0
+R17
+R18
+vlab3_pressed
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed.sv
+R11
+R19
+!i10b 1
+!s100 jFc=Xh3d_F=Pi?[TXohkL2
+IQFL[f1SLad8CMGHXL`[;;2
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed.sv
+!i122 161
+L0 7 39
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed.sv|
+!i113 0
+R17
+R18
+vlab3_pressed_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed_tb.sv
+R11
+R19
+!i10b 1
+!s100 5D=_ja?4DJLNOLNl0F^in1
+IcMKTF^C;M;KEC6ziGQD[80
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed_tb.sv
+!i122 162
+L0 6 102
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_pressed_tb.sv|
+!i113 0
+R17
+R18
+vlab3_scan
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_scan.sv
+R11
+R19
+!i10b 1
+!s100 <;WeQgMdYdWREGGZ9?QP:1
+INW4j<Pf;`zQ0eck>H5CEe1
+S1
+R4
+w1789963599
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_scan.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_scan.sv
+!i122 163
+L0 7 19
+R14
+R15
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_scan.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_scan.sv|
+!i113 0
+R17
+R18
+vlab3_seg7
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_seg7.sv
+R11
+Z21 !s110 1789965641
+!i10b 1
+!s100 nWG7K^IhL[AHzClh:8i7>2
+IL`EoR]?DEV9h<C@j=]5>G3
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_seg7.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_seg7.sv
+!i122 164
+L0 9 32
+R14
+R15
+r1
+!s85 0
+31
+Z22 !s108 1789965641.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_seg7.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_seg7.sv|
+!i113 0
+R17
+R18
+vlab3_sync
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync.sv
+R11
+R21
+!i10b 1
+!s100 Z9QS1`XaeRJ^Q:hB5:bQ^0
+I=M?Zl@ebAh=CV:N9k_63=3
+S1
+R4
+R13
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync.sv
+!i122 165
+L0 8 17
+R14
+R15
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync.sv|
+!i113 0
+R17
+R18
+vlab3_sync_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync_tb.sv
+R11
+R21
+!i10b 1
+!s100 62ZJH<ZJT`iodlHfLkI^:2
+ICc^DO0;aI2TJUD_UGi=Wk1
+S1
+R4
+w1789959431
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync_tb.sv
+!i122 166
+L0 6 32
+R14
+R15
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_sync_tb.sv|
+!i113 0
+R17
+R18
+vlab3_top
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top.sv
+R11
+R21
+!i10b 1
+!s100 nk@I:R::^k0BN`>FaL7OO3
+I4<T7oLAJJQd9BV^OT[;mU3
+S1
+R4
+w1789963210
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top.sv
+!i122 167
+L0 10 46
+R14
+R15
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top.sv|
+!i113 0
+R17
+R18
+vlab3_top_tb
+2C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top_tb.sv
+R11
+!s110 1789967066
+!i10b 1
+!s100 JMNV98F:J`K1j1ig^XCCR1
+IMAmac[G1eN?X;ClI1WW_M1
+S1
+R4
+w1789967053
+8C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top_tb.sv
+FC:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top_tb.sv
+!i122 172
+L0 6 79
+R14
+R15
+r1
+!s85 0
+31
+!s108 1789967066.000000
+!s107 C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/lanfang/Desktop/lab3/lab3/impl_1/lab3_top_tb.sv|
+!i113 0
+R17
+R18
